@@ -12,8 +12,6 @@
 <body>
 <div id="wrap">
     <div id="top_content">
-
-
         <%@include file="publicHead.jsp" %>
 
         <div id="content">

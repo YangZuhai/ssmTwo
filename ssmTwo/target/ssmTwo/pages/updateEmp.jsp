@@ -12,8 +12,6 @@
 <body>
 <div id="wrap">
     <div id="top_content">
-
-
         <%@include file="publicHead.jsp" %>
 
         <div id="content">
@@ -38,14 +36,14 @@
                         <tr>
                             <td valign="middle" align="right">
                                 name:
-                                <input value="${emp.name}" name="name"/>
+                                <input value="${emp.name}" name="name" required="required"/>
                             </td>
 
                         </tr>
                         <tr>
                             <td valign="middle" align="right">
                                 age:
-                                <input value="${emp.age}" name="age"/>
+                                <input value="${emp.age}" name="age" required="required"/>
                             </td>
 
                         </tr>

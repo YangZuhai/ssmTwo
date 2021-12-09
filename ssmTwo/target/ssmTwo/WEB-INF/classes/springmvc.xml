@@ -24,11 +24,11 @@
 <!--解决静态资源拦截的配置-->
     <mvc:default-servlet-handler/>
 
-<!--&lt;!&ndash;    配置文件上传解析器&ndash;&gt;-->
-<!--    <bean class="org.springframework.web.multipart.commons.CommonsMultipartResolver" id="multipartResolver">-->
-<!--&lt;!&ndash;        注入文件上传下载大小限制 单位字节 2m=2097152字节 默认:没有限制 &ndash;&gt;-->
-<!--        <property name="maxInMemorySize" value="2097152"/>-->
-<!--    </bean>-->
+<!--    配置文件上传解析器-->
+    <bean class="org.springframework.web.multipart.commons.CommonsMultipartResolver" id="multipartResolver">
+<!--        注入文件上传下载大小限制 单位字节 2m=2097152字节 默认:没有限制 -->
+        <property name="maxInMemorySize" value="6507152"/>
+    </bean>
 
 
 </beans>
