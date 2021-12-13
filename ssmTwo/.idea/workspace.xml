@@ -10,52 +10,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a63b8d7b-b7fa-4ce8-9763-78ac85691eaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../springbootOne/springboot_object/src/main/java/com/hxzyyn/config/BeanConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springbootOne/springboot_object/src/main/java/com/hxzyyn/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springbootOne/springboot_object/src/main/java/com/hxzyyn/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springbootOne/springboot_object/src/main/java/com/hxzyyn/service/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springbootOne/springboot_object/src/main/java/com/hxzyyn/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springbootOne/springboot_object/src/main/java/com/hxzyyn/service/impl/DemoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springbootOne/springboot_object/src/main/java/com/hxzyyn/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springbootOne/springboot_object/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springbootOne/springboot_object/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springbootOne/springboot_object/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springbootOne/src/main/java/com/hxzyyn/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springbootOne/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-fileupload-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-io-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/file/aa.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisplus/src/main/java/com/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisplus/src/main/java/com/hxzyyn/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisplus/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/java/com/hxzyyn/controller/EmpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/java/com/hxzyyn/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/java/com/hxzyyn/dao/EmpDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/java/com/hxzyyn/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/java/com/hxzyyn/entity/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/java/com/hxzyyn/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/java/com/hxzyyn/service/EmpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/java/com/hxzyyn/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/java/com/hxzyyn/service/impl/EmpServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/java/com/hxzyyn/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/resources/com/hxzyyn/mapper/EmpDaoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/resources/com/hxzyyn/mapper/UserDaoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/webapp/pages/addEmp.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/webapp/pages/emplist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/webapp/pages/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/webapp/pages/publicCss.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/webapp/pages/publicFoot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/webapp/pages/publicHead.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/webapp/pages/regist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/main/webapp/pages/updateEmp.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/test/java/com/hxzyyn/TestEmpDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_backjsp/src/test/java/com/hxzyyn/TestUserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hxzyyn/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxzyyn/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/upload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/upload.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hxzyyn/controller/EmpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hxzyyn/controller/EmpController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hxzyyn/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hxzyyn/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hxzyyn/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hxzyyn/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hxzyyn/dao/EmpDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hxzyyn/dao/EmpDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hxzyyn/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hxzyyn/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hxzyyn/entity/Emp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hxzyyn/entity/Emp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hxzyyn/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hxzyyn/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hxzyyn/service/EmpService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hxzyyn/service/EmpService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hxzyyn/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hxzyyn/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hxzyyn/service/impl/EmpServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hxzyyn/service/impl/EmpServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hxzyyn/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hxzyyn/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/controller/EmpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/controller/EmpController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/dao/EmpDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/dao/EmpDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/entity/Emp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/entity/Emp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/service/EmpService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/service/EmpService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/service/impl/EmpServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/service/impl/EmpServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/com/hxzyyn/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmTwo/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmTwo/pages/updateEmp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmTwo/pages/updateEmp.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmTwo/upload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmTwo/pages/upload.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestSqlSessionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestSqlSessionFactory.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +114,7 @@
       <recent name="D:\IDEA\kongjian\ssmTwo\src\main\webapp\img" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.54">
+  <component name="RunManager" selected="JUnit.TestSqlSessionFactory.testSqlSessionFactory">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -305,6 +288,13 @@
       <workItem from="1639097116113" duration="121000" />
       <workItem from="1639097915683" duration="24000" />
       <workItem from="1639126742039" duration="4052000" />
+      <workItem from="1639137941599" duration="377000" />
+      <workItem from="1639138344173" duration="85000" />
+      <workItem from="1639138451857" duration="283000" />
+      <workItem from="1639138760455" duration="95000" />
+      <workItem from="1639138878230" duration="600000" />
+      <workItem from="1639293256381" duration="44000" />
+      <workItem from="1639295551746" duration="55000" />
     </task>
     <servers />
   </component>

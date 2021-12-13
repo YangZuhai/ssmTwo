@@ -66,6 +66,11 @@ public class IndexController {
         return "redirect:/pages/login";
     }
 
+
+    public void testGo(){
+    }
+
+
     @GetMapping("upload")
     public String upload() {
         return "/pages/upload";
@@ -80,7 +85,9 @@ public class IndexController {
                 System.out.println("文件名:" + img[i].getOriginalFilename());
                 System.out.println("文件大小:" + img[i].getSize() + "字节");
                 System.out.println("文件上传类型:" + img[i].getContentType());
+
             }
+
 //       文件上传
 //        1.根据 upload相对路径获取到部署到服务器之后的绝对路径
             String realPath = null;

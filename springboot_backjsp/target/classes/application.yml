@@ -1,0 +1,6 @@
+server:
+  port: 520
+
+spring:
+  profiles:
+    active: dev

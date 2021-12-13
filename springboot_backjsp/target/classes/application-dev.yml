@@ -1,0 +1,31 @@
+
+##springmvc视图解析器
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+
+  datasource:
+    #    数据源是al的Druid
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/ssm?serverTimezone=Asia/Shanghai&useSSL=false
+    username : root
+    password : root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#必须定格输出 否则被判断为上一级的子级
+#热部署 (更改jsp不用重启tomcat)
+server:
+  servlet:
+    jsp:
+      init-parameters:
+        development: true
+    context-path: /springboot
+
+# mybatis配置
+mybatis:
+  #  指向mapper下的.xml
+  mapper-locations: classpath:com/hxzyyn/mapper/*.xml
+  #  配置别名
+  type-aliases-package: com.hxzyyn.entity

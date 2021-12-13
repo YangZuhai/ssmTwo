@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hxzyyn.dao.EmpDao">
+
+    <sql id="select*">
+        select `id`, `name`, `age`, `bir`
+        from `t_emp`
+    </sql>
+
+
+    <select id="findAllEmps" resultType="com.hxzyyn.entity.Emp">
+        <include refid="select*"/>
+    </select>
+
+    <insert id="save" parameterType="Emp" useGeneratedKeys="true" keyProperty="id">
+        insert into `t_emp`(`name`, `age`, `bir`)
+        values (#{name}, #{age}, #{bir})
+
+    </insert>
+
+    <select id="findEmpByWhere" resultType="Emp" parameterType="Emp">
+        <include refid="select*"/>
+        <where>
+            <if test="id!=0 and id!=null">
+                and `id`=#{id}
+            </if>
+            <if test="name!=null and name!=''">
+                and `name`=#{name}
+            </if>
+            <if test="age!=0 and age!=null">
+                and `age`=#{age}
+            </if>
+            <if test="bir!=null and bir!=''">
+                and `bir`=#{bir}
+            </if>
+        </where>
+
+    </select>
+
+    <update id="updateEmp" parameterType="Emp">
+        update `t_emp`
+        <trim prefix="set" suffixOverrides="," suffix="where `id`=#{id}">
+            <if test="name!=null and name!=''">
+                `name`=#{name},
+            </if>
+            <if test="age!=0 and age !=null">
+                `age`=#{age},
+            </if>
+            <if test="bir!=null">
+                `bir`=#{bir},
+            </if>
+        </trim>
+
+    </update>
+
+    <delete id="deleteEmp" parameterType="int">
+        delete
+        from `t_emp`
+        where `id` = #{id}
+    </delete>
+
+</mapper>
